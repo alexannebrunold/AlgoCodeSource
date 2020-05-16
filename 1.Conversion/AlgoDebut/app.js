@@ -1,9 +1,14 @@
 function conversion(degCel) {
-
-
+    let result = (degCel * (9/5) + 32)
+    
+    if(Number.isInteger(degCel)){
+        return result
+    }else{
+        console.log('Données en entrée non correctes.')
+    }
 }
 
-console.log(conversion(50));
+console.log(conversion("z"));
 
 
 
