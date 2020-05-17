@@ -8,7 +8,7 @@ function conversion(degCel) {
     }
 }
 
-console.log(conversion("z"));
+console.log(conversion({hello:true}));
 
 
 

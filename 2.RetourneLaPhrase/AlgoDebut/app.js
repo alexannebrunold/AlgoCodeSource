@@ -1,5 +1,11 @@
 function retourneLaPhrase(str) {
+   let result
+    const sentence = str.split('')
+    sentence.reverse()
+    result = sentence.join('')
 
+   return result
+   
 }
 
 console.log(retourneLaPhrase("Bonjour à tous"));
